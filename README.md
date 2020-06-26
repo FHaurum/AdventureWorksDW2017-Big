@@ -5,10 +5,10 @@ By default dbo.FactInternetSales contains 60.398 rows which is not much if you w
 
 This first version of the script made here duplicates the original records in dbo.FactInternetSales a number of times to reach the desired number of records.
 
-##Prerequisites
+## Prerequisites
 Restore a copy of the original AdventureWorksDW2017 database available [here](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/adventure-works).
 
-##Scripts to enlarge the database
-###001-ModifyDatabase
-###002-spGenerateCalendar
-###100-IncreaseFactInternetSales
+## Scripts to enlarge the database
+### 001-ModifyDatabase
+### 002-spGenerateCalendar
+### 100-IncreaseFactInternetSales

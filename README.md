@@ -10,7 +10,7 @@ Restore a copy of the original AdventureWorksDW2017 database available [here](ht
 
 ## Scripts to enlarge the database
 ### 001-ModifyDatabase
-Changes the data type from tinyint to smallint for the column RevivionNumber in dbo.FactInternetSales
+Changes the data type from tinyint to smallint for the column RevisionNumber in dbo.FactInternetSales
 ### 002-spGenerateCalendar
 Stored procedure that generates a complete calendar for every day in a year
 ### 100-IncreaseFactInternetSales

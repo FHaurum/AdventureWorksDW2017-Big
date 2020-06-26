@@ -12,6 +12,6 @@ Restore a copy of the original AdventureWorksDW2017 database available [here](ht
 ### 001-ModifyDatabase
 Changes the data type from tinyint to smallint for the column RevisionNumber in dbo.FactInternetSales
 ### 002-spGenerateCalendar
-Stored procedure that generates a complete calendar for every day in a year
+Stored procedure that generates records for every day in a year in dbo.DimDate
 ### 100-IncreaseFactInternetSales
 Script duplicating the original records in dbo.FactInternetSales a number of times in order to reach the desired number of records.

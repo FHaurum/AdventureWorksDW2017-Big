@@ -14,4 +14,4 @@ Changes the data type from tinyint to smallint for the column RevivionNumber in 
 ### 002-spGenerateCalendar
 Stored procedure that generates a complete calendar for every day in a year
 ### 100-IncreaseFactInternetSales
-Script duplicating the original records in dbo.FactInternetSales anumber of times in order to reach the desired number of records.
+Script duplicating the original records in dbo.FactInternetSales a number of times in order to reach the desired number of records.
